@@ -43,3 +43,34 @@ main {
     height: 468px;
     width: 268px;
 }
+
+#redes-sociais {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    right: 0;
+}
+
+#redes-sociais img {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.400);
+    transition-duration: 0.2s;
+    opacity: 80%;
+    
+}
+
+#redes-sociais img:hover {
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600); 
+    transform: scale(1.1) translate(-3px, -3px);
+    opacity: 100%;
+}
+
+#redes-sociais img:active {
+    transform: scale(95%);
+}
